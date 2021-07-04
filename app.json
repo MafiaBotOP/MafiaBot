@@ -1,0 +1,195 @@
+{
+  "name": "𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃",
+  "description": "The MafiaBot made by @H1M4N5HU0P special thanks to respective HellBot owner @Kraken_The_BadASS. Join for updates related info @MafiaBot_Support",
+  "logo": "https://telegra.ph/file/75229ba894ef780332815.jpg",
+    "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/H1M4N5HU0P/MAFIABOT/",
+  "website": "https://github.com/H1M4N5HU0P/MAFIABOT/",
+  "success_url": "https://t.me/MAFIABOT_SUPPORT",
+  "env": {
+    "ENV": {
+      "description": "Set this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "TEMP_DOWNLOAD_DIRECTORY": {
+      "description": "Where downloaded files will go.",
+      "value": "./userbot/DOWNLOADS/",
+      "required": false
+    },
+    "ALIVE_NAME": {
+      "description": "Fill your Full name or Username like @H1M4N5HU0P. By default it is Mafia User",
+      "value": "@MafiaBot_Support",
+      "required": false
+    },
+    "ALIVE_MSG": {
+      "description": "Set Custom Alive Message When entering .mafia Command.",
+      "value": "😈MAFIABOT IS ALIVE😈",
+      "required": false
+    },
+    "ALIVE_PIC": {
+      "description": "Put here any telegraph media link for alive pic in .mafia command.",
+      "value": "https://telegra.ph/file/502d3b7372c1c395bba5a.mp4",
+      "required": false
+    },
+    "BIO_MSG": {
+      "description": "Put Your Telegram Bio Here Required For Auto Bio.",
+      "value": "😈LEGEND'S SAY'S TO MAFIABOT😈",
+      "required": false
+    },
+    "PMPERMIT_PIC": {
+      "description": "put here any telegraph media link for custom pmpermit pic.",
+      "value": "https://telegra.ph/file/502d3b7372c1c395bba5a.mp4",
+      "required": true
+    },
+    "CUSTOM_PMPERMIT": {
+      "description": "Enter Your custom pm permit msg.",
+      "value": "PLEASE DO NOT SPAM MY DM, I WILL REPLY YOU AFTER COME BACK ONLINE!",
+      "required": false
+    },
+    "PM_PERMIT_GROUP_ID": {
+      "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
+      "value": "-336323518",
+      "required": true
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
+      "value": "2184829"
+    },
+    "REM_BG_API_KEY": {
+      "description": "Required for Removing image background. Get your api key from https://www.remove.bg/",
+      "value": "",
+      "required": false
+    },
+    "OCR_SPACE_API_KEY": {
+      "description": "Register an account on ocr.space to get this value(API key)....",
+      "value": "",
+      "required": false
+    },
+    "LYDIA_API_KEY": {
+      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
+      "value": "",
+      "required": false
+    },
+    "SUDO_USERS": {
+      "description": "Enter your friends user id to to give him bot sudo access",
+      "value": "",
+      "required": false
+    },
+    "SUDO_COMMAND_HAND_LER": {
+      "description": "Please enter sudo user command handler",
+      "value": "*",
+      "required": false
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
+      "value": "6930b92388baabff4cb4a1d377085035"
+    },
+    "PLUGIN_CHANNEL": {
+      "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
+      "value": "-336323518"
+    },
+    "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "create a private channel and then type .get_id add that value here for save messages",
+      "value": "-1001174481876"
+    },
+    "PRIVATE_GROUP_ID": {
+      "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
+      "value": "-336323518"
+    },
+    "PM_LOGGR_BOT_API_ID": {
+       "description": "for login private messages create a private channel and do .get_id and add that id", 
+       "value": "-1001174481876"
+    }, 
+    "STRING_SESSION": {
+      "description": "Get this value by running https://repl.it/@H1M4N5HU0P/MAFIABOT#main.py ",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+      "value": "22c9f205-3860-48e7-a1e5-457c15480877",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+      "value": "enteryourappname",
+      "required": true
+    },
+    "TG_BOT_TOKEN_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+      "value": "1445762068:AAG_-327E_oIzta6TGGbdc6-RqePyM8fyR8"
+    },
+    "CHROME_BIN": {
+      "description": "For Carbon.py. Leave as it is. ",
+      "value": "/app/.apt/usr/bin/google-chrome",
+      "required": false
+    },
+    "CHROME_DRIVER": {
+      "description": "For Carbon.py. Leave as it is. ",
+      "value": "/app/.chromedriver/bin/chromedriver",
+      "required": false
+    },
+    "TG_BOT_USER_NAME_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at @BotFather and get the username of your bot",
+      "value": "@MAFIA_PUBLIC_bot"
+    },
+    "OPEN_WEATHER_MAP_APPID": {
+      "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
+      "required": false
+    },
+    "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
+      "description": " Set The Amount Of Buttons Displayed In Help Command default 8",
+      "value": "8",
+      "required": true
+    },
+    "NO_OF_COLUMS_DISPLAYED_IN_H_ME_CMD": {
+      "description": "Set The Amount Of Rows You Want To Displayed In Help Command default 2",
+      "value": "2",
+      "required": true
+    },
+    "EMOJI_TO_DISPLAY_IN_HELP": {
+      "description": "Set The emojies You Want to Add In Help Command!!",
+      "value": "🤖",
+      "required": false
+    }, 
+    "TZ": {
+      "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Kolkata",
+      "required": false
+    },
+    "PM_DATA": {
+      "description": "Type DISABLE if you want to disable pm protection... ",
+      "value": "ENABLE",
+      "required": false 
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/amivin/aria2-heroku.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "heroku/python"
+  }]
+}
