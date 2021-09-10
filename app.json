@@ -1,6 +1,6 @@
 {
   "name": "𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃",
-  "description": "The MafiaBot made by @H1M4N5HU0P special thanks to respective HellBot owner @Kraken_The_BadASS. Join for updates related info @MafiaBot_Support",
+  "description": "The MafiaBot made by @H1M4N5HU0P. Join for updates related info @MafiaBot_Support",
   "logo": "https://telegra.ph/file/75229ba894ef780332815.jpg",
     "keywords": [
     "telegram",
@@ -58,7 +58,7 @@
     },
     "SUDO_COMMAND_HAND_LER": {
       "description": "Please enter sudo user command handler",
-      "value": "*",
+      "value": ".",
       "required": false
     },
     "API_HASH": {
@@ -99,7 +99,6 @@
     "EMOJI_IN_HELP": {
       "description": "Put here your favorite emoji to make your bot cool.",
       "value": "⚡",
-      "required": true
     }
   },
   "addons": [
