@@ -27,6 +27,11 @@
       "value": "@MafiaBot_Support",
       "required": false
     },
+    "ABUSE": {
+      "description": "Leave it blank if you dont want Profanity in MafiaBot. Else Fill ON.",
+      "value": "",
+      "required": false
+    },    
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .mafia Command.",
       "value": "😈MAFIABOT IS ALIVE😈",
