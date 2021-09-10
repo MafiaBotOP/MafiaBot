@@ -96,11 +96,6 @@
       "value": "https://telegra.ph/file/2ed4a8dcd1cea1b38b113.mp4",
       "required": false 
     },
-    "TEMP_DOWNLOAD_DIRECTORY": {
-      "description": "Where downloaded files will go.",
-      "value": "./userbot/DOWNLOADS/",
-      "required": false
-    },    
     "EMOJI_IN_HELP": {
       "description": "Put here your favorite emoji to make your bot cool.",
       "value": "⚡",
