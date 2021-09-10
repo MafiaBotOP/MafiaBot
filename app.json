@@ -17,6 +17,11 @@
       "description": "Set this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
+    "TEMP_DOWNLOAD_DIRECTORY": {
+      "description": "Where downloaded files will go.",
+      "value": "./userbot/DOWNLOADS/",
+      "required": false
+    },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @H1M4N5HU0P. By default it is Mafia User",
       "value": "@MafiaBot_Support",
