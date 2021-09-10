@@ -52,29 +52,9 @@
       "value": "PLEASE DO NOT SPAM MY DM, I WILL REPLY YOU AFTER COME BACK ONLINE!",
       "required": false
     },
-    "PM_PERMIT_GROUP_ID": {
-      "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
-      "value": "-336323518",
-      "required": true
-    },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
       "value": "2184829"
-    },
-    "REM_BG_API_KEY": {
-      "description": "Required for Removing image background. Get your api key from https://www.remove.bg/",
-      "value": "",
-      "required": false
-    },
-    "OCR_SPACE_API_KEY": {
-      "description": "Register an account on ocr.space to get this value(API key)....",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
     },
     "SUDO_USERS": {
       "description": "Enter your friends user id to to give him bot sudo access",
@@ -90,22 +70,10 @@
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
       "value": "6930b92388baabff4cb4a1d377085035"
     },
-    "PLUGIN_CHANNEL": {
-      "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "-336323518"
-    },
-    "PRIVATE_GROUP_BOT_API_ID": {
-      "description": "create a private channel and then type .get_id add that value here for save messages",
+    "MAFIABOT_LOGGER": {
+      "description": "Create a private channel/group add rose then type /id in group.",
       "value": "-1001174481876"
     },
-    "PRIVATE_GROUP_ID": {
-      "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "-336323518"
-    },
-    "PM_LOGGR_BOT_API_ID": {
-       "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": "-1001174481876"
-    }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://repl.it/@H1M4N5HU0P/MAFIABOT#main.py ",
       "value": ""
@@ -124,48 +92,9 @@
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
       "value": "1445762068:AAG_-327E_oIzta6TGGbdc6-RqePyM8fyR8"
     },
-    "CHROME_BIN": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.apt/usr/bin/google-chrome",
-      "required": false
-    },
-    "CHROME_DRIVER": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.chromedriver/bin/chromedriver",
-      "required": false
-    },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at @BotFather and get the username of your bot",
       "value": "@MAFIA_PUBLIC_bot"
-    },
-    "OPEN_WEATHER_MAP_APPID": {
-      "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
-      "required": false
-    },
-    "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
-      "description": " Set The Amount Of Buttons Displayed In Help Command default 8",
-      "value": "8",
-      "required": true
-    },
-    "NO_OF_COLUMS_DISPLAYED_IN_H_ME_CMD": {
-      "description": "Set The Amount Of Rows You Want To Displayed In Help Command default 2",
-      "value": "2",
-      "required": true
-    },
-    "EMOJI_TO_DISPLAY_IN_HELP": {
-      "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "🤖",
-      "required": false
-    }, 
-    "TZ": {
-      "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
-      "required": false
-    },
-    "PM_DATA": {
-      "description": "Type DISABLE if you want to disable pm protection... ",
-      "value": "ENABLE",
-      "required": false 
     },
     "HELP_PIC": {
       "description": "Put link of pic or gif to show your .help menu provider cool",
