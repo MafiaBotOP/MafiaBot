@@ -110,6 +110,11 @@
       "description": "Put here your favorite emoji to make your bot cool.",
       "value": "⚡",
       "required": true
+    },
+    "PM_DATA": {
+      "description": "Type DISABLE if you want to disable pm protection... ",
+      "value": "ENABLE",
+      "required": false 
     }
   },
   "addons": [
