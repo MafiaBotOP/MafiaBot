@@ -1,9 +1,9 @@
 from telethon.sessions import StringSession
 from telethon.sync import TelegramClient
-
-print("")
-print("""Welcome To MafiaBot String Session\nGenerator By @H1M4N5HU0P\n\n""")
-print("""Special Thanks To My Buddy Respective HellBot\nOwner @Kraken_The_BadASS\n\n""")
+mafia = input("✵ Enter y/yes to continue: ")
+if mafia == 'y' or 'yes':
+ print("\nPlease go to my.telegram.org and get your API Id and API Hash to proceed\n\n 𒊹︎︎︎ɢɪᴛʜᴜʙ ʀᴇᴘᴏ ɪs ➪➪ https://github.com/MafiaBotOP/MafiaBot")
+print("""\n\nWelcome To MafiaBot String Session\nGenerator By @H1M4N5HU0P\n\n""")
 print("""Enter Your Valid Details To Continue!\n\n """)
 
 API_KEY = input("API_ID:  ")
