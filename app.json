@@ -39,7 +39,7 @@
     },
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .mafia command.",
-      "value": "https://telegra.ph/file/502d3b7372c1c395bba5a.mp4",
+      "value": "https://telegra.ph/file/fa222dff9344eb240d4e2.mp4",
       "required": false
     },
     "BIO_MSG": {
@@ -49,7 +49,7 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "https://telegra.ph/file/502d3b7372c1c395bba5a.mp4",
+      "value": "https://telegra.ph/file/fa222dff9344eb240d4e2.mp4",
       "required": true
     },
     "CUSTOM_PMPERMIT": {
@@ -103,7 +103,7 @@
     },
     "HELP_PIC": {
       "description": "Put link of pic or gif to show your .help menu provider cool",
-      "value": "https://telegra.ph/file/2ed4a8dcd1cea1b38b113.mp4",
+      "value": "https://telegra.ph/file/fa222dff9344eb240d4e2.mp4",
       "required": false 
     },
     "EMOJI_IN_HELP": {
