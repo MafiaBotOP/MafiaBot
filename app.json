@@ -52,11 +52,6 @@
       "value": "https://telegra.ph/file/fa222dff9344eb240d4e2.mp4",
       "required": true
     },
-    "CUSTOM_PMPERMIT": {
-      "description": "Enter Your custom pm permit msg.",
-      "value": "PLEASE DO NOT SPAM MY DM, I WILL REPLY YOU AFTER COME BACK ONLINE!",
-      "required": false
-    },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
       "value": "2184829"
