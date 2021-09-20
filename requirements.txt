@@ -66,7 +66,7 @@ selenium
 speedtest-cli>=2.0.2
 spotify_token
 spotdl
-sqlalchemy==1.4.20 
+sqlalchemy==1.4.23 
 telegraph
 twitter_scraper
 telethon==1.19.0
