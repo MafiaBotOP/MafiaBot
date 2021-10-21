@@ -1,8 +1,11 @@
-FROM sandy1709/catuserbot:alpine
+FROM H1M4N5HU0P/MAFIA-USERBOT:latest
 
-#clonning repo 
+# clonning repo 
 RUN git clone https://github.com/H1M4N5HU0P/MAFIA-USERBOT.git /root/userbot
-#working directory 
+
+RUN pip install --upgrade pip
+
+# working directory 
 WORKDIR /root/userbot
 
 # Install requirements
