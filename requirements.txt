@@ -33,7 +33,7 @@ geopy
 gsearch
 hachoir
 heroku3
-httplib2
+httplib2>=0.20.1
 humanize
 justwatch
 lxml
