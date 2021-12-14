@@ -68,7 +68,7 @@ sqlalchemy==1.4.23
 telegraph
 twitter_scraper
 telethon==1.24.0
-html-telegraph-poster
+html-telegraph-poster==0.4.0
 urbandict>=0.5
 validators
 wikipedia>=1.4.0
