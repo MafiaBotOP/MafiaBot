@@ -19,7 +19,7 @@ colorama>=0.4.3
 cloudscraper
 DateTime
 dnspython
-emoji==0.6.0
+emoji==1.7.0
 faker
 glitch_this
 gTTS-token>=1.1.3
